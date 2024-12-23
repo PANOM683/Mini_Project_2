@@ -1,0 +1,22 @@
+{
+  "students": [
+    {
+      "id": "4",
+      "name": "Jack",
+      "place": "UK",
+      "phone": "51958139491"
+    },
+    {
+      "id": "3",
+      "name": "Salina",
+      "place": "London",
+      "phone": "0194893803"
+    },
+    {
+      "id": "14",
+      "name": "Mann",
+      "place": "China",
+      "phone": "3999999"
+    }
+  ]
+}

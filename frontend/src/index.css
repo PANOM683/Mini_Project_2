@@ -1,0 +1,250 @@
+/* ViewDetails.jsx component CSS styles */
+
+h1 {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #1b7cbc;
+}
+
+.details {
+  margin-bottom: 25px;
+  background-color: #f2eded;
+  padding: 20px;
+  border: 1px solid #0e0c0c;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.details p {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #666;
+  width: 100%;
+}
+
+.details strong {
+  font-weight: bold;
+  margin-right: 0.625rem;
+  color: #3498db;
+}
+
+/* Add some nice hover effects */
+.details:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-back:hover {
+  box-shadow: 0 0 20px rgba(188, 20, 20, 0.977);
+}
+
+/*----------------------------------------------------------------------------------*/
+
+/* StudentTable.jsx component CSS styles */
+
+.table-container {
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  padding: 13px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+  color: #666;
+}
+
+td {
+  background-color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f2f2f2;
+}
+
+.btn {
+  margin-right: 10px;
+}
+
+.btn-add {
+  background-color: #18965f;
+  color: #fff;
+  margin-bottom: 20px;
+  display: block;
+  text-align: center;
+}
+
+.btn-add:hover {
+  background-color: #c01414;
+}
+
+.btn-info {
+  background-color: #060709;
+  color: #fff;
+}
+
+.btn-info:hover {
+  background-color: #1a76d2;
+}
+
+.btn-primary {
+  background-color: #0c9cdf;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #69d108;
+}
+
+.btn-danger {
+  background-color: #f12812;
+  color: #f5f3f3;
+}
+
+.btn-danger:hover {
+  background-color: #8f0c8bb2;
+}
+
+/*----------------------------------------------------------------------------------*/
+
+/* EditStudent.jsx component CSS styles */
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #666;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="text"]:focus {
+  border-color: #aaa;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.error {
+  color: #f44336;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.btn-save {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.btn-save:hover {
+  background-color: #3e8e41;
+}
+
+/*----------------------------------------------------------------------------------*/
+
+/* CreateStudent.jsx component CSS styles */
+
+.container {
+  max-width: 950px;
+  margin: 50px auto;
+  padding: 50px;
+  background-color: #f6f0f0;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #2690d6;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #0a0606;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="text"]:focus {
+  border-color: #aaa;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.error {
+  color: #f70303;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-save {
+  background-color: #4caf50;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.btn-save:hover {
+  background-color: #b11515;
+}
+
+.btn-save:hover {
+  box-shadow: 0 0 20px rgba(9, 5, 5, 0.977);
+}
+
+.btn-back {
+  background-color: #03a9f4;
+  color: #000000;
+}
+
+.btn-back:hover {
+  background-color: #12c612;
+}
+
+div {
+  margin-top: 20px;
+  text-align: center;
+}
